@@ -19,7 +19,7 @@
 /* #Base 960 Grid
 ================================================== */
 
-    .container                                  { position: relative; width: 30em; margin: 0 auto; padding: 0; }
+    .container                                  { position: relative; width: 70%; margin: 0 auto; padding: 0; }
     .container .column,
     .container .columns                         { float: left; display: inline; margin-left: 2.083333333333333%; margin-right: 2.083333333333333%; }
     .row                                        { margin-bottom: 1.5em; }

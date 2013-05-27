@@ -17,6 +17,10 @@
 /* #Site Styles
 ================================================== */
 
+	
+	/* #Select Colour
+	================================================== */
+
 	::selection {
 		background: #ffb7b7; /* Safari */
 		}
@@ -34,6 +38,7 @@
 	
 	/* #Nav
 	================================================== */
+	
 	.main-navigation ul li {
 		display:inline;
 		float:left;
@@ -428,7 +433,10 @@ http://net.tutsplus.com/tutorials/html-css-techniques/quick-tip-the-multi-column
 @font-face {
   font-family: 'fontello';
   src: url("../fonts/fontello/font/fontello.eot?78346596");
-  src: url("../fonts/fontello/font/fontello.eot?78346596#iefix") format('embedded-opentype'), url("../fonts/fontello/font/fontello.woff?78346596") format('woff'), url("../fonts/fontello/font/fontello.ttf?78346596") format('truetype'), url("../fonts/fontello/font/fontello.svg?78346596#fontello") format('svg');
+  src: url("../fonts/fontello/font/fontello.eot?78346596#iefix") format('embedded-opentype'),
+  url("../fonts/fontello/font/fontello.svg?78346596#fontello") format('svg'),
+  url("../fonts/fontello/font/fontello.woff?78346596") format('woff'), 
+  url("../fonts/fontello/font/fontello.ttf?78346596") format('truetype');
   font-weight: normal;
   font-style: normal;
 }

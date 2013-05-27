@@ -173,6 +173,9 @@ body {
   background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), transparent 2px);
   background-origin: content-box;
   background-size: 100% 0.75em; }
+  
+  
+  
 
 /* #Typography
 ================================================== */
@@ -263,8 +266,11 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	ul.large li { line-height: 1.5em; }
 	li p { line-height: 1.5em; }
 	ul.inline li	{ display:inline; }
+	
+	
+	
 
-/* #Images
+/* #Images/Video
 ================================================== */
 
 	img.scale-with-grid, video {
@@ -360,6 +366,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     border: 0;
     padding: 0;
 	}
+	
+	
 
 
 /* #Table 
@@ -382,6 +390,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	#table-zebra .odd {
 		background: #e8edff; }
 		
+
+
 
 
 /* #Tabs (activate in tabs.js)
@@ -536,6 +546,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	form.nice div.form-field.error .small.oversize + small, form.nice .small.oversize + small.error { width: 136px; }
 	form.nice div.form-field.error .medium.oversize + small, form.nice .medium.oversize + small.error { width: 256px; }
 	form.nice div.form-field.error .large.oversize + small, form.nice .large.oversize + small.error { width: 436px; }
+
+
 
 
 /* #Misc
