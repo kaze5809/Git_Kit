@@ -1,0 +1,121 @@
+$base:    16px;
+$baseline:	24px;
+$h1: 72px;
+$h2: 48px;
+$h3: 36px;
+$h4: 28px;
+$h5: 22px;
+$h6: 16px;
+
+
+
+ body {
+		margin: 0;
+		/*background: #fff url(../img/misc/baseline-20px.gif) repeat;*/
+		font: $base "Georgia", "Times New Roman", serif;
+		line-height: $baseline;
+		color: #444;
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+		 /* Baseline */
+		background-image: -webkit-linear-gradient(rgba(0,0,0,.2), transparent 2px);
+		background-origin: content-box;
+		background-size: 100% $baseline;
+		 }
+
+/* #Typography
+================================================== */
+	h1, h2, h3, h4, h5, h6 {
+		color: #181818;
+		font-family: "Georgia", "Times New Roman", serif;
+		font-weight: normal; }
+		
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	
+	
+	/* Pixel Type Grid
+	
+	h1 {
+		padding-top: 10px;
+		font-size: 72px; 
+		line-height: 80px;
+		margin-bottom: 10px;  }
+		
+	h2 {
+		padding-top: 8px;
+		font-size: 48px; 
+		line-height: 60px; 
+		margin-bottom: 12px;  }
+		
+		
+	h3 {
+		padding-top: 4px;
+		font-size: 36px; 
+		line-height: 40px; 
+		margin-bottom: 16px; }
+		
+	h4 {
+		padding-top: 6px;
+		font-size: 28px;
+		line-height: 40px; 
+		margin-bottom: 14px;  }
+		
+	
+	h5 {
+		padding-top: 8px;
+		font-size: 22px; 
+		line-height: 40px;
+		margin-bottom: 12px; }
+		
+	h6 {
+		font-size: 16px; 
+		line-height: 20px;
+		margin-bottom: 20px; }
+		
+	.header-offset	{ margin-top: 20px; }	 */
+	
+	
+	h1 {
+		padding-top: 10px;
+		font-size: ($h1/$base)*1em; /* = 72px/14px */
+		line-height: (($baseline*4)/$h1)*1em; /* = 80px/72px */
+		margin-bottom: 10px;  }
+		
+	h2 {
+		padding-top: 9px;
+		font-size: ($h2/$base)*1em; /* = 48px/14px */
+		line-height: (($baseline*3)/$h2)*1em; /* = 60px/48px */
+		margin-bottom: 11px;  }
+		
+		
+	h3 {
+		padding-top: 3px;
+		font-size: ($h3/$base)*1em; /* = 36px/14px */
+		line-height: (($baseline*2)/$h3)*1em; /* = 40px/36px */
+		margin-bottom: 17px; }
+		
+	h4 {
+		padding-top: 5px;
+		font-size: ($h4/$base)*1em; /* = 28px/14px */
+		line-height: (($baseline*2)/$h4)*1em; /* = 40px/28px */
+		margin-bottom: 15px;  }
+		
+	
+	h5 {
+		padding-top: 8px;
+		font-size: ($h5/$base)*1em; /* = 22px/14px */
+		line-height: (($baseline*2)/$h5)*1em; /* = 40px/22px */
+		margin-bottom: 12px; }
+		
+	h6 {
+		font-size: ($h6/$base)*1em; /* = 16px/14px */
+		line-height: (($baseline)/$h6)*1em; /* = 20px/16px */
+		margin-bottom: 20px; }
+		
+	.header-offset-20	{ margin-top: $baseline; }
+	.header-offset-40	{ margin-top: $baseline*2; }		
+	
+
+	p { margin-bottom: $baseline*2; }
+		
+	hr { border: solid #888; border-width: 1px 0 0; clear: both; margin: 0 0 -1px; height: 1px; display:block; }

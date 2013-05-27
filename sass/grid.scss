@@ -1,0 +1,76 @@
+
+$pwidth:    960px;
+$pmargin:	20px;
+$tmargin:	$pmargin*2;
+
+/* Table of Contents
+==================================================
+    #Base 960 Grid
+    #Tablet (Portrait)
+    #Mobile (Portrait)
+    #Mobile (Landscape)
+    #Clearing */
+
+
+
+/* #Base 960 Grid
+================================================== */
+
+    .container                                  { position: relative; width: $pwidth; margin: 0 auto; padding: 0; }
+    .container .column,
+    .container .columns                         { float: left; display: inline; margin-left: ($pmargin/$pwidth)*100%; margin-right: ($pmargin/$pwidth)*100%; }
+    .row                                        { margin-bottom: $pmargin; }
+
+    /* Nested Column Classes */
+    .column.alpha, .columns.alpha               { margin-left: 0; }
+    .column.omega, .columns.omega               { margin-right: 0; }
+	
+	/* Inner Padding & Flexbox model */
+    .inner-padding  {  
+		webkit-box-sizing: border-box; 	/* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;         /* Opera/IE 8+ */  }
+		
+    .flexible-box-model             			{ }
+
+    /* Base Grid */
+    .container .one.column,
+    .container .one.columns                     { width: ((60px-$tmargin)/$pwidth)*100%;  }
+    .container .two.columns                     { width: ((120px-$tmargin)/$pwidth)*100%; }
+    .container .three.columns                   { width: ((180px-$tmargin)/$pwidth)*100%; }
+    .container .four.columns                    { width: ((240px-$tmargin)/$pwidth)*100%; }
+    .container .five.columns                    { width: ((300px-$tmargin)/$pwidth)*100%; }
+    .container .six.columns                     { width: ((360px-$tmargin)/$pwidth)*100%; }
+    .container .seven.columns                   { width: ((420px-$tmargin)/$pwidth)*100%; }
+    .container .eight.columns                   { width: ((480px-$tmargin)/$pwidth)*100%; }
+    .container .nine.columns                    { width: ((540px-$tmargin)/$pwidth)*100%; }
+    .container .ten.columns                     { width: ((600px-$tmargin)/$pwidth)*100%; }
+    .container .eleven.columns                  { width: ((660px-$tmargin)/$pwidth)*100%; }
+    .container .twelve.columns                  { width: ((720px-$tmargin)/$pwidth)*100%; }
+    .container .thirteen.columns                { width: ((780px-$tmargin)/$pwidth)*100%; }
+    .container .fourteen.columns                { width: ((840px-$tmargin)/$pwidth)*100%; }
+    .container .fifteen.columns                 { width: ((900px-$tmargin)/$pwidth)*100%; }
+    .container .sixteen.columns                 { width: ((960px-$tmargin)/$pwidth)*100%; }
+    .container .full.column                     { width: 100%; }
+    .container .half.column                     { width: 50%; }
+    .container .quarter.column                  { width: 25%; }
+
+    .container .one-third.column                { width: ((320px-$tmargin)/$pwidth)*100%; }
+    .container .two-thirds.column               { width: ((640px-$tmargin)/$pwidth)*100%; }
+
+    /* Offsets */
+    .container .offset-by-one                   { padding-left: ((80px-$tmargin)/$pwidth)*100%;  }
+    .container .offset-by-two                   { padding-left: ((140px-$tmargin)/$pwidth)*100%; }
+    .container .offset-by-three                 { padding-left: ((200px-$tmargin)/$pwidth)*100%; }
+    .container .offset-by-four                  { padding-left: ((260px-$tmargin)/$pwidth)*100%; }
+    .container .offset-by-five                  { padding-left: ((320px-$tmargin)/$pwidth)*100%; }
+    .container .offset-by-six                   { padding-left: ((380px-$tmargin)/$pwidth)*100%; }
+    .container .offset-by-seven                 { padding-left: ((440px-$tmargin)/$pwidth)*100%; }
+    .container .offset-by-eight                 { padding-left: ((500px-$tmargin)/$pwidth)*100%; }
+    .container .offset-by-nine                  { padding-left: ((560px-$tmargin)/$pwidth)*100%; }
+    .container .offset-by-ten                   { padding-left: ((620px-$tmargin)/$pwidth)*100%; }
+    .container .offset-by-eleven                { padding-left: ((680px-$tmargin)/$pwidth)*100%; }
+    .container .offset-by-twelve                { padding-left: ((740px-$tmargin)/$pwidth)*100%; }
+    .container .offset-by-thirteen              { padding-left: ((800px-$tmargin)/$pwidth)*100%; }
+    .container .offset-by-fourteen              { padding-left: ((860px-$tmargin)/$pwidth)*100%; }
+    .container .offset-by-fifteen               { padding-left: ((920px-$tmargin)/$pwidth)*100%; }

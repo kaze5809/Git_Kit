@@ -1,0 +1,137 @@
+{
+  "name": "",
+  "glyphs": [
+    {
+      "search": [
+        "youtube"
+      ],
+      "code": 85,
+      "uid": "57a4f84c40a0c44d47387105f162a427",
+      "css": "youtube",
+      "orig_css": "youtube",
+      "orig_code": 85,
+      "src": "zocial",
+      "from": 85
+    },
+    {
+      "search": [
+        "play",
+        "player"
+      ],
+      "code": 59392,
+      "from": 9654,
+      "uid": "ce06b5805120d0c2f8d60cd3f1a4fdb5",
+      "css": "play-1",
+      "orig_css": "play",
+      "orig_code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "search": [
+        "close",
+        "cancel",
+        "reject"
+      ],
+      "code": 10062,
+      "uid": "bf45c39702763f1803b550c36a0ceb12",
+      "css": "cancel-squared",
+      "orig_css": "cancel-squared",
+      "orig_code": 10062,
+      "src": "entypo",
+      "from": 10062
+    },
+    {
+      "search": [
+        "eye",
+        "subscribe"
+      ],
+      "code": 59146,
+      "uid": "25fc99a30fecc4021fdcae5fff5ba9ac",
+      "css": "eye",
+      "orig_css": "eye",
+      "orig_code": 59146,
+      "src": "entypo",
+      "from": 59146
+    },
+    {
+      "search": [
+        "arrow",
+        "down"
+      ],
+      "code": 59228,
+      "from": 59228,
+      "uid": "ccddff8e8670dcd130e3cb55fdfc2fd0",
+      "css": "down-open",
+      "orig_css": "down-open",
+      "orig_code": 59228,
+      "src": "fontawesome"
+    },
+    {
+      "search": [
+        "arrow",
+        "left"
+      ],
+      "code": 59229,
+      "from": 59229,
+      "uid": "d870630ff8f81e6de3958ecaeac532f2",
+      "css": "left-open",
+      "orig_css": "left-open",
+      "orig_code": 59229,
+      "src": "fontawesome"
+    },
+    {
+      "search": [
+        "arrow",
+        "right"
+      ],
+      "code": 59230,
+      "from": 59230,
+      "uid": "399ef63b1e23ab1b761dfbb5591fa4da",
+      "css": "right-open",
+      "orig_css": "right-open",
+      "orig_code": 59230,
+      "src": "fontawesome"
+    },
+    {
+      "search": [
+        "arrow",
+        "up"
+      ],
+      "code": 59231,
+      "from": 59231,
+      "uid": "fe6697b391355dec12f3d86d6d490397",
+      "css": "up-open",
+      "orig_css": "up-open",
+      "orig_code": 59231,
+      "src": "fontawesome"
+    },
+    {
+      "search": [
+        "twitter",
+        "social",
+        "logo"
+      ],
+      "code": 62217,
+      "uid": "d090355c31f497b61d676416c1fd39fb",
+      "css": "twitter",
+      "orig_css": "twitter",
+      "orig_code": 62217,
+      "src": "entypo",
+      "from": 62217
+    },
+    {
+      "search": [
+        "facebook",
+        "social",
+        "logo"
+      ],
+      "code": 62220,
+      "uid": "bc50457410acf467b8b5721240768742",
+      "css": "facebook",
+      "orig_css": "facebook",
+      "orig_code": 62220,
+      "src": "entypo",
+      "from": 62220
+    }
+  ]
+}

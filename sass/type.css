@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  /*background: #fff url(../img/misc/baseline-20px.gif) repeat;*/
+  font: 16px "Georgia", "Times New Roman", serif;
+  line-height: 24px;
+  color: #444;
+  -webkit-font-smoothing: antialiased;
+  /* Fix for webkit rendering */
+  -webkit-text-size-adjust: 100%;
+  /* Baseline */
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), transparent 2px);
+  background-origin: content-box;
+  background-size: 100% 24px; }
+
+/* #Typography
+================================================== */
+h1, h2, h3, h4, h5, h6 {
+  color: #181818;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: normal; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit; }
+
+/* Pixel Type Grid
+
+h1 {
+	padding-top: 10px;
+	font-size: 72px; 
+	line-height: 80px;
+	margin-bottom: 10px;  }
+	
+h2 {
+	padding-top: 8px;
+	font-size: 48px; 
+	line-height: 60px; 
+	margin-bottom: 12px;  }
+	
+	
+h3 {
+	padding-top: 4px;
+	font-size: 36px; 
+	line-height: 40px; 
+	margin-bottom: 16px; }
+	
+h4 {
+	padding-top: 6px;
+	font-size: 28px;
+	line-height: 40px; 
+	margin-bottom: 14px;  }
+	
+
+h5 {
+	padding-top: 8px;
+	font-size: 22px; 
+	line-height: 40px;
+	margin-bottom: 12px; }
+	
+h6 {
+	font-size: 16px; 
+	line-height: 20px;
+	margin-bottom: 20px; }
+	
+.header-offset	{ margin-top: 20px; }	 */
+h1 {
+  padding-top: 10px;
+  font-size: 4.5em;
+  /* = 72px/14px */
+  line-height: 1.33333em;
+  /* = 80px/72px */
+  margin-bottom: 10px; }
+
+h2 {
+  padding-top: 9px;
+  font-size: 3em;
+  /* = 48px/14px */
+  line-height: 1.5em;
+  /* = 60px/48px */
+  margin-bottom: 11px; }
+
+h3 {
+  padding-top: 3px;
+  font-size: 2.25em;
+  /* = 36px/14px */
+  line-height: 1.33333em;
+  /* = 40px/36px */
+  margin-bottom: 17px; }
+
+h4 {
+  padding-top: 5px;
+  font-size: 1.75em;
+  /* = 28px/14px */
+  line-height: 1.71429em;
+  /* = 40px/28px */
+  margin-bottom: 15px; }
+
+h5 {
+  padding-top: 8px;
+  font-size: 1.375em;
+  /* = 22px/14px */
+  line-height: 2.18182em;
+  /* = 40px/22px */
+  margin-bottom: 12px; }
+
+h6 {
+  font-size: 1em;
+  /* = 16px/14px */
+  line-height: 1.5em;
+  /* = 20px/16px */
+  margin-bottom: 20px; }
+
+.header-offset-20 {
+  margin-top: 24px; }
+
+.header-offset-40 {
+  margin-top: 48px; }
+
+p {
+  margin-bottom: 48px; }
+
+hr {
+  border: solid #888888;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 0 0 -1px;
+  height: 1px;
+  display: block; }
