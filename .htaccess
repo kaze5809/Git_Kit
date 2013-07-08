@@ -343,7 +343,7 @@ FileETag None
   RewriteEngine On
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-# RewriteRule ^events(.*)\.html$ index.php
+  RewriteRule ^events(.*)\.html$ index.php
 # RewriteCond $0 !^index\.html($|/)
 # RewriteRule ^([^.]+)\.html$ $1.php
 # RewriteBase /

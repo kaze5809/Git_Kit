@@ -1,5 +1,5 @@
 /*
-* Crank 1.0
+* Blank 1.0
 * Based on Skeleton by Dave Gamache
 * www.getskeleton.com
 * 
@@ -19,7 +19,7 @@
 /* #Base 960 Grid
 ================================================== */
 
-    .container                                  { position: relative; width: 70%; margin: 0 auto; padding: 0; }
+    .container                                  { position: relative; width: 30em; margin: 0 auto; padding: 0; } /* Base = 32px --> 30em = 960px */
     .container .column,
     .container .columns                         { float: left; display: inline; margin-left: 2.083333333333333%; margin-right: 2.083333333333333%; }
     .row                                        { margin-bottom: 1.5em; }
@@ -28,7 +28,7 @@
     .column.alpha, .columns.alpha               { margin-left: 0; }
     .column.omega, .columns.omega               { margin-right: 0; }
 	
-	/* Inner Padding & Flexbox model */
+	/* Inner Padding */
     .inner-padding  {  
 		webkit-box-sizing: border-box; 	/* Safari/Chrome, other WebKit */
 		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
@@ -37,15 +37,14 @@
 		background-color: #999;
 		opacity: 0.5; }
 		
-		
 	/* http://css-tricks.com/using-flexbox/ IE 10+ */
-	
     .flexible-box-model { 
 		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
 		display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
 		display: -ms-flexbox;      /* TWEENER - IE 10 */
 		display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */	}
+		
 
     /* Base Grid */
     .container .one.column,
@@ -103,8 +102,6 @@
     @media only screen and (min-width: 48em) and (max-width: 60em) {
         
         .container                                  { width: 24em; }
-		
-		
 		
 		.container .four.columns img 				{ margin-bottom: 1.15em; }
 

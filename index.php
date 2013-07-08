@@ -3,9 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-
 <head>
-
     <meta charset="utf-8">
     
     <!-- Always force latest IE rendering engine
@@ -15,68 +13,33 @@
     
     <title></title>
     <meta name="description" content="Focus on keyword content">
-    <!-- Initial scale forces original size - may need to remove for  fully resposive sites -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="">
     
-    <!-- Add Google Authorsship
-    http://webdesign.tutsplus.com/articles/general/why-you-should-add-authorship-information-to-your-website/
-    ================================================== 
-    <link rel="author" href="https://plus.google.com/u/0/XXXXXXX">-->
-    
-    <!-- CSS Dev
-    ================================================== -->
-	<link rel="stylesheet" href="css/base.em.zen.css">
-	<link rel="stylesheet" href="css/skeleton.fluid.css">
-	<link rel="stylesheet" href="css/layout.css">
-
-    <!-- dns Pre-Fetch
-    ==================================================
-    <link rel="dns-prefetch" href="//somehost.tld" /> -->
-    
-    <!-- CSS Production
-    ==================================================
-	<link rel="stylesheet" href="css/all.min.css"> -->
-
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- Favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
-
-    <!-- Windows 8 Tile
-    ================================================== -->
-    <meta name="msapplication-TileColor" content="#232323"/>
-    <meta name="msapplication-TileImage" content="windows-8-icon-144x144.png"/>
-
-    <!-- HTML5 Boilerplate resets
-    ================================================== 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css"> -->
-
-    <!-- We have different Modernizr versions that wil work better for older browsers
-    <script src="js/libs/modernizr.min.js"></script>
-    ================================================== -->
-    <script src="js/libs/modernizr.custom.full.js"></script>
-    
-    <!-- Typekit Fonts Plugin
-	==================================================
-	<script type="text/javascript" src="http://use.typekit.net/bxg8zgz.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>  -->
+    <?php include 'assets-head.php'; ?>
     
     
     <!-- Facebook Meta Data
 	================================================== -->
     
+    <!-- Main Three -->
     <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="" />
+    
     <meta property="og:type" content="" />
     <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
     <meta property="og:site_name" content="" />
-    <meta property="og:description" content="" />
-        
+    
+    
+    <!-- Twiter Meta Data == http://davidwalsh.name/twitter-cards
+	================================================== -->
+   	<meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@site_account">
+    <meta name="twitter:creator" content="@individual_account">
+    <meta name="twitter:url" content="http://www.example.com/path/to/page.html">
+    <meta name="twitter:title" content="">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:image" content="http://www.example.com/path/to/image.jpg">
+            
     
 </head>
 <body>
@@ -89,49 +52,23 @@
 
 
    <!-- Header
-    ================================================== -->
-   <header>
+   ================================================== -->
+   <header id="top-container">
 
-        <div class="container">
+        <div class="container vertical-center">
             <div class="sixteen columns" style="margin-top: 1.3em;">
-            	<hgroup>
-                    <h1>Gitkit</h1>
+            	
+                    <h1>Blank</h1>
+                    <!--
                     <h2>Version 1.0</h2>
                     <h3>Version 1.0</h3>
                     <h4>Version 1.0</h4>
                     <h5>Version 1.0</h5>
                     <h6>Version 1.0</h6>
-                </hgroup>
-                
-                <nav class="main-navigation">
-                    <ul>
-                        <li><a href="/" class="active">Home</a></li>
-                        <li><a href="/collections/all">Books</a></li>
-                        <li><a href="/blogs/five-simple-steps-blog">Blog</a></li>
-                        <li><a href="/pages/about-us">About Us</a></li>
-                        <li><a href="#myAnchor" class="anchorLink">Scroll Anchor</a></li>
-                    </ul>
-                     <select>
-                        <option value="" selected="selected">Select</option> 
-                        <option value="/">Home</option>
-                            
-                            <option>&nbsp;&nbsp;&nbsp;- Home 1</option>
-                            <option>&nbsp;&nbsp;&nbsp;- Home 2</option>
-                            <option>&nbsp;&nbsp;&nbsp;- Home 3</option>
-                            
-                        <option value="/collections/all">Books</option>
-                        
-                            <option>&nbsp;&nbsp;&nbsp;- Books 1</option>
-                            <option>&nbsp;&nbsp;&nbsp;- Books 2</option>
-                            <option>&nbsp;&nbsp;&nbsp;- Books 3</option>
-                            
-                        <option value="/blogs/five-simple-steps-blog">Blog</option>
-                        <option value="/pages/about-us">About Us</option>
-                        <option value="/pages/support">Support</option>
-                    </select>
-				</nav>
-                
-                <hr />
+                    -->
+                    
+                  	<?php include 'assets-nav.php'; ?>
+               
             </div>
         </div>
     
@@ -150,6 +87,52 @@
                 <p>Look at my cool shape! How would you do it?</p>
             </div>
         </section> -->
+        
+        	<article class="row">
+           
+         		<section class="twelve columns">
+                    <h2>Gearbox</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum leo mi, id vulputate turpis. Curabitur sit amet dolor vel odio vestibulum semper eu at metus. Nulla sagittis cursus venenatis. Ut tempor rhoncus magna in pellentesque. Proin ac metus non ante aliquam feugiat. Integer gravida molestie aliquam. Maecenas luctus, nunc nec gravida tincidunt, dolor urna dignissim ante, eu laoreet dui eros ut quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum non dolor eu leo gravida faucibus sit amet id turpis.
+                    Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra. Etiam eu nunc nisi, at pellentesque enim. Nullam consequat lorem nec tellus semper sit amet ultrices erat hendrerit. Maecenas tortor elit, fermentum et placerat nec, ornare non neque. Etiam ornare velit non massa venenatis iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras elementum vehicula risus id euismod. Vivamus aliquam mauris ut dolor pharetra et ullamcorper magna consequat. Phasellus odio urna, cursus ut ornare at, pharetra eget dui. Cras rhoncus ultrices tortor nec laoreet. Integer laoreet sem et neque scelerisque condimentum venenatis quam dignissim. Integer ut convallis ipsum.</p>
+                 </section>
+                
+                <aside class="four columns">
+                    <h3>Aside Info</h3>
+                    <figure>
+                            <img src="img/640X480.png" width="640" height="480" alt="Responsive Image" class="scale-with-grid">
+                            <!--<figcaption>An S logo.</figcaption>-->
+                    </figure>
+                    <p>Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra.</p>
+                </aside>
+                
+                <section class="two-thirds column">
+                    <h2>Gitkit</h2>
+                    <p class="box-overflow" title="I am some really, really long text that's going to be ellipsized">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum leo mi, id vulputate turpis. Curabitur sit amet dolor vel odio vestibulum semper eu at metus. Nulla sagittis cursus venenatis. Ut tempor rhoncus magna in pellentesque. Proin ac metus non ante aliquam feugiat. Integer gravida molestie aliquam. Maecenas luctus, nunc nec gravida tincidunt, dolor urna dignissim ante, eu laoreet dui eros ut quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum non dolor eu leo gravida faucibus sit amet id turpis.
+                    Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra. Etiam eu nunc nisi, at pellentesque enim. Nullam consequat lorem nec tellus semper sit amet ultrices erat hendrerit. Maecenas tortor elit, fermentum et placerat nec, ornare non neque. Etiam ornare velit non massa venenatis iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras elementum vehicula risus id euismod. Vivamus aliquam mauris ut dolor pharetra et ullamcorper magna consequat. Phasellus odio urna, cursus ut ornare at, pharetra eget dui. Cras rhoncus ultrices tortor nec laoreet. Integer laoreet sem et neque scelerisque condimentum venenatis quam dignissim. Integer ut convallis ipsum.</p>
+                   	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione minima necessitatibus incidunt nemo amet laborum earum autem repellat laudantium esse.</p>
+                    <ul class="circle">
+                        <li title="Code: 0x55"><i class="icon-youtube"></i> <span class="i-name">icon-youtube</span><span class="i-code">0x55</span></li>
+                        <li title="Code: 0xe800"><i class="icon-play-1"></i> <span class="i-name">icon-play-1</span><span class="i-code">0xe800</span></li>
+                        <li title="Code: 0x274e"><i class="icon-cancel-squared"></i> <span class="i-name">icon-cancel-squared</span><span class="i-code">0x274e</span></li>
+                        <li title="Code: 0xe70a"><i class="icon-eye"></i> <span class="i-name">icon-eye</span><span class="i-code">0xe70a</span></li>
+                        <li title="Code: 0xe75c"><i class="icon-down-open"></i> <span class="i-name">icon-down-open</span><span class="i-code">0xe75c</span></li>
+                        <li title="Code: 0xe75d"><i class="icon-left-open"></i> <span class="i-name">icon-left-open</span><span class="i-code">0xe75d</span></li>
+                        <li title="Code: 0xe75e"><i class="icon-right-open"></i> <span class="i-name">icon-right-open</span><span class="i-code">0xe75e</span></li>
+                        <li title="Code: 0xe75f"><i class="icon-up-open"></i> <span class="i-name">icon-up-open</span><span class="i-code">0xe75f</span></li>
+                        <li title="Code: 0xf309"><i class="icon-twitter"></i> <span class="i-name">icon-twitter</span><span class="i-code">0xf309</span></li>
+                        <li title="Code: 0xf30c"><i class="icon-facebook"></i> <span class="i-name">icon-facebook</span><span class="i-code">0xf30c</span></li>
+                    </ul>
+                    
+                 </section>
+                
+                <aside class="one-third column">
+                    <h3>Charachters @ 45-75 range</h3>
+                    <p>NLorem ipsum dolor sit amet, consectetur adip*isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.</p>
+                </aside>
+            
+ 		</article> 
+        
+        
 
         <article class="row">
         
@@ -194,50 +177,7 @@
         
         
     
-    	<article class="row">
-        
-                <section class="two-thirds column">
-                    <h2>Gitkit</h2>
-                    <p class="box-overflow" title="I am some really, really long text that's going to be ellipsized">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum leo mi, id vulputate turpis. Curabitur sit amet dolor vel odio vestibulum semper eu at metus. Nulla sagittis cursus venenatis. Ut tempor rhoncus magna in pellentesque. Proin ac metus non ante aliquam feugiat. Integer gravida molestie aliquam. Maecenas luctus, nunc nec gravida tincidunt, dolor urna dignissim ante, eu laoreet dui eros ut quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum non dolor eu leo gravida faucibus sit amet id turpis.
-                    Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra. Etiam eu nunc nisi, at pellentesque enim. Nullam consequat lorem nec tellus semper sit amet ultrices erat hendrerit. Maecenas tortor elit, fermentum et placerat nec, ornare non neque. Etiam ornare velit non massa venenatis iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras elementum vehicula risus id euismod. Vivamus aliquam mauris ut dolor pharetra et ullamcorper magna consequat. Phasellus odio urna, cursus ut ornare at, pharetra eget dui. Cras rhoncus ultrices tortor nec laoreet. Integer laoreet sem et neque scelerisque condimentum venenatis quam dignissim. Integer ut convallis ipsum.</p>
-                   	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione minima necessitatibus incidunt nemo amet laborum earum autem repellat laudantium esse.</p>
-                    <ul class="circle">
-                        <li title="Code: 0x55"><i class="icon-youtube"></i> <span class="i-name">icon-youtube</span><span class="i-code">0x55</span></li>
-                        <li title="Code: 0xe800"><i class="icon-play-1"></i> <span class="i-name">icon-play-1</span><span class="i-code">0xe800</span></li>
-                        <li title="Code: 0x274e"><i class="icon-cancel-squared"></i> <span class="i-name">icon-cancel-squared</span><span class="i-code">0x274e</span></li>
-                        <li title="Code: 0xe70a"><i class="icon-eye"></i> <span class="i-name">icon-eye</span><span class="i-code">0xe70a</span></li>
-                        <li title="Code: 0xe75c"><i class="icon-down-open"></i> <span class="i-name">icon-down-open</span><span class="i-code">0xe75c</span></li>
-                        <li title="Code: 0xe75d"><i class="icon-left-open"></i> <span class="i-name">icon-left-open</span><span class="i-code">0xe75d</span></li>
-                        <li title="Code: 0xe75e"><i class="icon-right-open"></i> <span class="i-name">icon-right-open</span><span class="i-code">0xe75e</span></li>
-                        <li title="Code: 0xe75f"><i class="icon-up-open"></i> <span class="i-name">icon-up-open</span><span class="i-code">0xe75f</span></li>
-                        <li title="Code: 0xf309"><i class="icon-twitter"></i> <span class="i-name">icon-twitter</span><span class="i-code">0xf309</span></li>
-                        <li title="Code: 0xf30c"><i class="icon-facebook"></i> <span class="i-name">icon-facebook</span><span class="i-code">0xf30c</span></li>
-                    </ul>
-                    
-                 </section>
-                
-                <aside class="one-third column">
-                    <h3>Charachters @ 45-75 range</h3>
-                    <p>NLorem ipsum dolor sit amet, consectetur adip*isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua.</p>
-                </aside>
-               
-           
-         		<section class="twelve columns">
-                    <h2>Gearbox</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum leo mi, id vulputate turpis. Curabitur sit amet dolor vel odio vestibulum semper eu at metus. Nulla sagittis cursus venenatis. Ut tempor rhoncus magna in pellentesque. Proin ac metus non ante aliquam feugiat. Integer gravida molestie aliquam. Maecenas luctus, nunc nec gravida tincidunt, dolor urna dignissim ante, eu laoreet dui eros ut quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum non dolor eu leo gravida faucibus sit amet id turpis.
-                    Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra. Etiam eu nunc nisi, at pellentesque enim. Nullam consequat lorem nec tellus semper sit amet ultrices erat hendrerit. Maecenas tortor elit, fermentum et placerat nec, ornare non neque. Etiam ornare velit non massa venenatis iaculis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras elementum vehicula risus id euismod. Vivamus aliquam mauris ut dolor pharetra et ullamcorper magna consequat. Phasellus odio urna, cursus ut ornare at, pharetra eget dui. Cras rhoncus ultrices tortor nec laoreet. Integer laoreet sem et neque scelerisque condimentum venenatis quam dignissim. Integer ut convallis ipsum.</p>
-                 </section>
-                
-                <aside class="four columns">
-                    <h3>Aside Info</h3>
-                    <figure>
-                             <img src="img/640X480.png" width="640" height="480" class="scale-with-grid">
-                            <figcaption>An S logo.</figcaption>
-                    </figure>
-                    <p>Nullam lobortis lacus eu nisi pretium et pellentesque lorem dapibus. Nulla facilisi. Donec eu odio nec elit tincidunt pharetra. Donec a interdum magna. Integer vestibulum nisi sed metus pulvinar viverra.</p>
-                </aside>
-            
- 		</article> 
+    
         
         
         
@@ -440,71 +380,15 @@
     </div> -->
     
    
-  
-    
-    <!-- Microdata - http://schema.org/docs/full.html
-    http://schema-creator.org/
-    ================================================== 
-    <div class="container">
-            <div class="sixteen columns">
-                <div itemscope itemtype=”http://schema.org/Event”>
-                    <p><span itemprop=”name”>Foo Fighters Concert</span>.
-                    Concert will take place at <span itemprop=”location”>Madison Square Garden</span>
-                    on <time datetime="2011-05-08T19:30">May 8, 2011 at 7:30pm</time>.</p>
-                </div>
-                <!-- For Video
-                <meta itemprop=”Duration” content=”T2M40S” /> --> <!--
-             
-        </div>
-    </div>-->
 
-    <!-- Footer
-	================================================== -->
-
-
-    <footer class="container clearfix">
+	<?php include 'assets-footer.php'; ?>
     
-    	
-        	<div class="sixteen columns">
-              	<hr />
-                <h5 class="remove-bottom">Version 1.0</h5>
-                <small>Copyright info or small print</small>
-            </div>
-        
     
-    </footer>
-    
-    <!-- End -->
-	
+<!-- End
+==================================================  -->
  
-   
-	<!-- JS Dev versions: 1.9.1, 1.9.0, 1.8.3, 1.8.2, 1.8.1, 1.8.0, 1.7.2, 1.7.1, 1.7.0
-    Ggl Hosted Libraries - https://developers.google.com/speed/libraries/devguide
-	================================================== 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>-->
-	<script async src="js/libs/jquery.min.js"></script>
-    <script async src="js/plugins.js"></script>
-    <script async src="js/scripts.js"></script> 
-    
-    <!-- JS Production
-	================================================== 
-    <script src="js/all.min.js"></script> -->
-    
-    <!--[if lte IE 7 ]>
-        <script type="text/javascript" src="js/shims/border-box.js"></script>
-    <![endif]-->
-
-
-    <!-- The script is downloaded asynchronously while the rest of the page continues to get parsed. The script is guaranteed to be executed as soon as the download is complete. 
-    http://browserdiet.com/
-    http://css-tricks.com/thinking-async/
-    ================================================== 
-    <script async src="example.js"></script> -->
-
-    <!-- Just like the example above, the script is downloaded in an asynchronous manner. But it's executed only when the page has been completely parsed.
-    ================================================== 
-    <script defer src="example.js"></script> -->
+	
+    <?php include 'assets-js.php'; ?>
     
     
     <script type="text/javascript">
@@ -512,50 +396,20 @@
 		$(document).ready(function() {
 			<!-- Script here -->
 			
-			<!-- For Placeholders in older forms -->
-			if(!Modernizr.input.placeholder){
-				
-					$('[placeholder]').focus(function() {
-					  var input = $(this);
-					  if (input.val() == input.attr('placeholder')) {
-						input.val('');
-						input.removeClass('placeholder');
-					  }
-					}).blur(function() {
-					  var input = $(this);
-					  if (input.val() == '' || input.val() == input.attr('placeholder')) {
-						input.addClass('placeholder');
-						input.val(input.attr('placeholder'));
-					  }
-					}).blur();
-					$('[placeholder]').parents('form').submit(function() {
-					  $(this).find('[placeholder]').each(function() {
-						var input = $(this);
-						if (input.val() == input.attr('placeholder')) {
-						  input.val('');
-						}
-					  })
-					});
-				
-				}
+			
+			<!-- Add Class -->
+			//$('a[href="index.html"]').addClass("back-to-top active");
+			//$('ul[data-anchor="home"] li a').addClass("anchorLink");
+			
+			
 
 		});
-	
+		
+		<?php include 'assets-ga.php'; ?>
+    
 	</script>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-XXXXX-Y']);
-        _gaq.push(['_trackPageview']);
-
-        (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
-    
+  
         
 </body>
 </html>

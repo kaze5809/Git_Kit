@@ -1,0 +1,135 @@
+ <!-- Rich Snippets - Microdata
+    ================================================== -->   
+
+
+    <!-- Event
+    ================================================== 
+    <div class="container">
+            <div class="sixteen columns">
+                <div itemscope itemtype="http://schema.org/Event">
+                    <p><span itemprop="name">Foo Fighters Concert</span>.
+                    Concert will take place at <span itemprop="location">Madison Square Garden</span>
+                    on <time datetime="2011-05-08T19:30">May 8, 2011 at 7:30pm</time>.</p>
+                </div>
+                
+                
+                <div itemprop="event" itemscope itemtype="http://schema.org/Event">
+                  <a href="foo-fighters-may20-fedexforum" itemprop="url">
+                    <span itemprop="name">FedExForum</span>
+                  </a>
+                  <span itemprop="location">Memphis, TN, US</span>
+                  <meta itemprop="startDate" content="2011-05-20">May 20
+                  <a href="ticketmaster.com/foofighters/may20-2011" itemprop="offers">Buy tickets</a>
+                </div>
+                
+			<!-- For Video
+                <meta itemprop="Duration" content="T2M40S" /> --> <!--
+             
+        </div>
+    </div>-->
+    
+    
+    <!-- Restaurant 
+    ================================================== 
+    
+    <div itemscope itemtype="http://schema.org/Restaurant">
+      <span itemprop="name">GreatFood</span>
+    
+      <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+        <span itemprop="ratingValue">4</span> stars -
+        based on <span itemprop="reviewCount">250</span> reviews
+      </div>
+    
+      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="streetAddress">1901 Lemur Ave</span>
+        <span itemprop="addressLocality">Sunnyvale</span>,
+        <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">94086</span>
+      </div>
+      <span itemprop="telephone">(408) 714-1489</span>
+      <a itemprop="url" href="http://www.dishdash.com">www.greatfood.com</a>
+    
+      Hours:
+      <meta itemprop="openingHours" content="Mo-Sa 11:00-14:30">Mon-Sat 11am - 2:30pm
+      <meta itemprop="openingHours" content="Mo-Th 17:00-21:30">Mon-Thu 5pm - 9:30pm
+      <meta itemprop="openingHours" content="Fr-Sa 17:00-22:00">Fri-Sat 5pm - 10:00pm
+    
+      Categories:
+      <span itemprop="servesCuisine">
+        Middle Eastern
+      </span>,
+      <span itemprop="servesCuisine">
+        Mediterranean
+      </span>
+    
+      Price Range: <span itemprop="priceRange">$$</span>
+      Takes Reservations: Yes
+    </div>  -->
+    
+    
+    
+    <!-- Organisation 
+    ================================================== 
+    
+   <div itemscope itemtype="http://schema.org/Organization">
+      <span itemprop="name">Google.org (GOOG)</span>
+    
+    Contact Details:
+      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        Main address:
+          <span itemprop="streetAddress">38 avenue de l'Opera</span>
+          <span itemprop="postalCode">F-75002</span>
+          <span itemprop="addressLocality">Paris, France</span>
+        ,
+      </div>
+        Tel:<span itemprop="telephone">( 33 1) 42 68 53 00 </span>,
+        Fax:<span itemprop="faxNumber">( 33 1) 42 68 53 01 </span>,
+        E-mail: <span itemprop="email">secretariat(at)google.org</span>
+    
+    Members:
+    - National Scientific Members in 100 countries and territories: Country1, Country2, ...
+    - Scientific Union Members, 30 organizations listed in this Yearbook:
+      <span itemprop="member" itemscope itemtype="http://schema.org/Organization">
+        Member1
+      </span>,
+      <span itemprop="member" itemscope itemtype="http://schema.org/Organization">
+        Member2
+      </span>
+      
+    </div>  -->
+    
+    
+    <!-- Local Business
+    ================================================== 
+    
+   <div itemscope itemtype="http://schema.org/Restaurant">
+      <span itemprop="name">GreatFood</span>
+    
+      <div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+        <span itemprop="ratingValue">4</span> stars -
+        based on <span itemprop="reviewCount">250</span> reviews
+      </div>
+    
+      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <span itemprop="streetAddress">1901 Lemur Ave</span>
+        <span itemprop="addressLocality">Sunnyvale</span>,
+        <span itemprop="addressRegion">CA</span> <span itemprop="postalCode">94086</span>
+      </div>
+      <span itemprop="telephone">(408) 714-1489</span>
+      <a itemprop="url" href="http://www.dishdash.com">www.greatfood.com</a>
+    
+      Hours:
+      <meta itemprop="openingHours" content="Mo-Sa 11:00-14:30">Mon-Sat 11am - 2:30pm
+      <meta itemprop="openingHours" content="Mo-Th 17:00-21:30">Mon-Thu 5pm - 9:30pm
+      <meta itemprop="openingHours" content="Fr-Sa 17:00-22:00">Fri-Sat 5pm - 10:00pm
+    
+      Categories:
+      <span itemprop="servesCuisine">
+        Middle Eastern
+      </span>,
+      <span itemprop="servesCuisine">
+        Mediterranean
+      </span>
+    
+      Price Range: <span itemprop="priceRange">$$</span>
+      Takes Reservations: Yes
+    </div>  -->
